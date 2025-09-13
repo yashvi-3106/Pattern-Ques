@@ -23,13 +23,13 @@ using namespace std;
 int main() {
     int n = 5;
 
-    for (int r = 1; r <= n; r++) {
+    for (int i = 1; i <= n; i++) {
 
-        for (int s = 1; s <= n - r; s++) {
+        for (int j = 1; j <= n - i; j++) {
             cout << "  "; 
         }
 
-        for (int num = 1; num <= 2*r - 1; num++) {
+        for (int num = 1; num <= 2*i - 1; num++) {
             cout << num << " ";
         }
 
